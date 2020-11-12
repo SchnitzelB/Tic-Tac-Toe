@@ -266,16 +266,6 @@ files:
 feedback_link: https://hyperskill.org/projects/48/stages/256/implement#comment
 status: Failed
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    Your field doesn&#39;t match expected field
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    XOX---------
-    | O_OXXO_XX |---------
-  time: Thu, 12 Nov 2020 20:56:22 UTC
+  message: Compilation Failed
+  time: Thu, 12 Nov 2020 21:47:28 UTC
 record: -1
