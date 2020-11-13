@@ -7,16 +7,24 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        char[] tttinput = new char[9];
-        String tttAsString = Arrays.toString(tttinput);
+        int len = 9;
+        char[] tttinput = new char[len];
 
-        System.out.println("Enter an X.");
-        String userInput = scanner.next();
-        for (userInput.equals()) {
+        tttinput[0] = scanner.next();
+        tttinput[1] = scanner.next();
+        tttinput[2] = scanner.next();
+        tttinput[3] = scanner.next();
+        tttinput[4] = scanner.next();
+        tttinput[5] = scanner.next();
+        tttinput[6] = scanner.next();
+        tttinput[7] = scanner.next();
+        tttinput[8] = scanner.next();
 
+        if (tttinput == 'X' && tttinput == 'O') {
+            tttinput = array.;
         }
 
-        //        char[] rowOne = {'O', '_', 'O'};
+//        char[] rowOne = {'O', '_', 'O'};
 //        String rowOneString = Arrays.toString(rowOne);
 //        char[] rowTwo = {'X', 'X', 'O'};
 //        char[] rowThree = {'_', 'x', 'x'};
@@ -24,9 +32,9 @@ public class Main {
 
 
         System.out.println("---------");
-        System.out.println("| " + tttAsString.charAt(0) + " " + tttAsString.charAt(1) + " " + tttAsString.charAt(2) + " |");
-        System.out.println("| " + tttAsString.charAt(3) + " " + tttAsString.charAt(4) + " " + tttAsString.charAt(5) + " |");
-        System.out.println("| " + tttAsString.charAt(6) + " " + tttAsString.charAt(7) + " " + tttAsString.charAt(8) + " |");
+        System.out.println("| " + tttinput[0] + " " + tttinput[1] + " " + tttinput[2] + " |");
+        System.out.println("| " + tttinput[3] + " " + tttinput[4] + " " + tttinput[5] + " |");
+        System.out.println("| " + tttinput[6] + " " + tttinput[7] + " " + tttinput[8] + " |");
         System.out.println("---------");
 
 
