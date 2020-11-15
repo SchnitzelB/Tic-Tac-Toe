@@ -11,6 +11,7 @@ public class Main {
         char[] tttinput = new char[len];
 
         tttinput[0] = scanner.next();
+        toString(char[0] tttinput);
         tttinput[1] = scanner.next();
         tttinput[2] = scanner.next();
         tttinput[3] = scanner.next();
@@ -21,7 +22,7 @@ public class Main {
         tttinput[8] = scanner.next();
 
         if (tttinput == 'X' && tttinput == 'O') {
-            tttinput = array.;
+            tttinput = ArrayListt.;
         }
 
 //        char[] rowOne = {'O', '_', 'O'};
