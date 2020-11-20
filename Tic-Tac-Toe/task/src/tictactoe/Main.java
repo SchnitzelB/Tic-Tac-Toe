@@ -5,46 +5,26 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+        char[][] tttinput = new char[3][3];
+        int i, j = 0;
 
-       char [][] tttinput = new char[3][3];
+        for (i = 0; i <= tttinput.length - 1; i++) {
+            System.out.println("-");
+        }
 
-        tttinput[0][0] = scanner.next().charAt(0);
+        for (i = 0; i <= 2; i++) {
+            for (j = 0; j <= 2; j++) {
+                tttinput[i][j] = scanner.next();
+                System.out.println("| ");
+                System.out.println(Arrays.toString(tttinput[i] + " "));
+                System.out.println("|");
 
-        tttinput[0][1] = scanner.next().charAt(0);
-
-        tttinput[0][2] = scanner.next().charAt(0);
-
-        tttinput[1][0] = scanner.next().charAt(0);
-
-        tttinput[1][1] = scanner.next().charAt(0);
-
-        tttinput[1][2] = scanner.next().charAt(0);
-
-        tttinput[2][0] = scanner.next().charAt(0);
-
-        tttinput[2][1] = scanner.next().charAt(0);
-
-        tttinput[2][2] = scanner.next().charAt(0);
+            }
+        }
 
 
-//        if ((tttinput.equals("O")) && (tttinput.equals("O")) && (tttinput.equals("_")) {
-//
-//        }
-
-
-//        char[] rowOne = {'O', '_', 'O'};
-//        String rowOneString = Arrays.toString(rowOne);
-//        char[] rowTwo = {'X', 'X', 'O'};
-//        char[] rowThree = {'_', 'x', 'x'};
-
-
-
-        System.out.println("---------");
-        System.out.println("| " + tttinput[0][0] + " " + tttinput[0][1] + " " + tttinput[0][2] + " |");
-        System.out.println("| " + tttinput[1][0] + " " + tttinput[1][1] + " " + tttinput[1][2] + " |");
-        System.out.println("| " + tttinput[2][0] + " " + tttinput[2][1] + " " + tttinput[2][2] + " |");
-        System.out.println("---------");
 
 
     }
